@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-image: url("assets/dog_background.jpg");
+	height: 100vh;
+	background-size: cover;
+	max-width: 100%;
+	max-height: auto;
+}
+
+.subtitle {
+	font-family: helvectica;
+	padding: 0px 0px 0px 20px;
+	float: left;
+	font-size: 30px;
+	color: #000;
+	letter-spacing: 1.2px;
+	line-height: 88px;
+}
+
+.site-nav {
+	font-size: 24px;
+	float: right;
+	line-height: 88px;
+}
+
+.site-nav .page-link {
+	text-decoration: none;
+	font-family: helvectica;
+	margin: 20px;
+	font-size: 18px;
+	color: #000;
+	letter-spacing: 1.2px;
+}
+
+.empty {
+	height: 75vh;
+}
+
+.center-transition {
+	max-width: 100%;
+	padding: 100px;
+	background: #e8cccc;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#e8cccc, #fff7f7);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#e8cccc, #fff7f7);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#e8cccc, #fff7f7);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#e8cccc, #fff7f7);
+	/* Standard syntax */
+}
+
+.center-transition p {
+	font-family: helvectica;
+	text-align: center;
+	font-size: 50px;
+	color: #000;
+}
+
+.list-style {
+	list-style: none;
+	padding: 0;
+}
+
+.list-style li {
+	padding: 10px;
+	height: 780px;
+}
+
+#dogContent {
+	margin: auto;
+	max-width: 93%;
+}
+
+ul li img:hover{
+	 box-shadow: 8px 8px 3px #888888;
+}
+.caption p {
+	font-size: 16px;
+}
+
+.contactInfo {
+	text-align: center;
+}
+
+.footerEmpty {
+	height: 10vh;
+	background: #bbb;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#fff, #bbb);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#fff, #bbb);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#fff, #bbb);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#fff, #bbb);
+	/* Standard syntax */
+	
+}
+.footer_ending {
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 1.2px;
+}
+.footer_ending span {
+	color: red;
+}
+.site-footer p {
+	margin-bottom: 0;
+	background: #bbb;
+	padding: 5px;
+	color: #000;
+	text-align: center;
+}

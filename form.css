@@ -1,0 +1,76 @@
+body {
+	background-image: url(assets/p4.jpg);
+	background-size: cover;
+		
+}
+
+.site-nav {
+	font-size: 24px;
+	float: right;
+	line-height: 88px;
+}
+
+.site-nav .page-link {
+	text-decoration: none;
+	font-family: helvectica;
+	margin: 20px;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 1.2px;
+}
+
+form {
+	border: 3px solid #f1f1f1;
+	max-width: 50%;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+	font-family: cursive;
+	color: #000;
+}
+
+label {
+	font-size: 18px;
+}
+
+textarea {
+	width: 99.2%;
+}
+
+
+input {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.footer_ending {
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 1.2px;
+}
+.footer_ending span {
+	color: red;
+}
+.site-footer p {
+	margin-bottom: 0;
+	padding: 5px;
+	color: #000;
+	text-align: center;
+}
