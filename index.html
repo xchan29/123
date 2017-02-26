@@ -55,17 +55,50 @@
 				<img src="http://cubits.org/pets/pics/2010-02-17/mom2goldens/08da16.jpg" alt="picture of Golden Retriever">
 				<div class="caption">
 					<h3>Golden Retriever</h3>
-					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					<p>Name - Happy <br>
+					Gender - Female <br>
+					Age - 7 years old <br>
+					Favorite toy – Tennis ball <br>
+					Favorite activity – Hiking <br>
+					Favorite place to go – The woods <br>
+					Qualifications/job – Loyal dog <br>
+					Bio – I’m huge on nature - I absolutely love going on long nature walks with my owner.  We’ve been to and explored so many different forests that I can’t even keep track anymore.  My dream is to one day make it to the top of one of those big mountains.  Nature is amazing, and I hope that you’re just as captivated by its wonder like me. <br>
+					</p>
+					<p class="contactInfo">
+						Email:31312.com <br>
+						Phone Number: 123456789 <br>
+					</p>
+					<p class="contact">
+					<button onclick="myFunction()" class="btn btn-primary" role="button">
+						Contact This Dog
+					</button>
+					</p>
+
 				</div>
 			</li>
 
 			<li class="col-sm-4 col-md-4 thumbnail">
 				<img src="http://www.perrosamigos.com/Uploads/perrosamigos.com/ImagenesGrandes/perros-labrador-retriever.jpg" alt="picture of Labrador">
 				<div class="caption">
-					<h3>Labrador</h3>
-					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					<h3>Labrador Retriever</h3>
+					<p>Name – Cory <br>
+					Gender - Male <br>
+					Age - 5 years old <br>
+					Favorite toy - Squeaky dinosaur <br>
+					Favorite activity - Playing fetch <br>
+					Favorite place to go – Dog park <br>
+					Qualifications/job – Stay-at-home dog <br>
+					Bio – Hey!  I’m Cory!  I love going to the park – my owner brings me every day and plays fetch with me for hours.  Being active is super important to me.  If you’re willing to spend countless hours running around in a field, then you should hit me up! <br>
+					</p>
+					<p class="contactInfo">
+						Email:31312.com <br>
+						Phone Number: 123456789 <br>
+					</p>
+					<p class="contact">
+					<button onclick="myFunction()" class="btn btn-primary" role="button">
+						Contact This Dog
+					</button>
+					</p>
 				</div>
 			</li>
 
@@ -73,19 +106,31 @@
 				<img src="https://www.rover.com/blog/wp-content/uploads/2014/07/rottweiler_puppy.jpg" alt="picture of Rottweiler">
 				<div class="caption">
 					<h3>Rottweiler</h3>
-					<p>Breed - Rottweiler
-						<br> Name – Rocky
-						<br> Gender - Male
-						<br> Age - 8 years old
-						<br> Favorite toy – None
-						<br> Favorite activity - Running
-						<br> Favorite place to go – Park
-						<br> Qualifications/job – I’m pretty swole
-						<br> Bio – I’m HUGE. I like to train my body and my mind. I’m not afraid to fight and I like to assert my dominance. I’m loyal and usually calm and collected.
+
+					<p>Name – Rocky <br>
+					Gender - Male <br>
+					Age - 8 years old <br>
+					Favorite toy – None <br>
+					Favorite activity - Running <br>
+					Favorite place to go – Park <br>
+					Qualifications/job – I’m pretty swole <br>
+					Bio – I’m HUGE. I like to train my body and my mind. I’m not afraid to fight and I like to assert my dominance. I’m loyal and usually calm and collected. <br>
+
 					</p>
-					<p><a href="#" class="btn btn-default" role="button">Contact This Dog</a></p>
+					<p id = "dog3">
+						Email:31312.com <br>
+						Phone Number: 123456789 <br>
+					</p>
+					<p class="contact">
+					<button onclick="myFunction(this.id)"
+					class="btn btn-primary" role="button">
+						Contact This Dog
+					</button>
+					</p>
 				</div>
 			</li>
+			
+			
 		</ul>
 	</div>
 
@@ -100,7 +145,17 @@
 
 
 
-
+	<script>
+		function myFunction(byId) {
+			var x = document.getElementsById(byId);
+			if (x.style.display === 'none') {
+				x.style.display = 'block';
+			} else {
+				x.style.display = 'none';
+			}
+		}
+		
+	</script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>

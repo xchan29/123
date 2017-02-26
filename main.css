@@ -40,7 +40,7 @@ header {
 
 .center-transition {
 	max-width: 100%;
-	padding: 20px;
+	padding: 100px;
 	background: #e8cccc;
 	/* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(#e8cccc, #fff7f7);
@@ -54,9 +54,9 @@ header {
 }
 
 .center-transition p {
-	font-family: helvetica;
+	font-family: helvectica;
 	text-align: center;
-	font-size: 30px;
+	font-size: 50px;
 	color: #000;
 }
 
@@ -71,6 +71,17 @@ header {
 #dogContent {
 	margin: auto;
 	max-width: 93%;
+}
+.caption p{
+	font-size: 16px;
+}
+.contact {
+	text-align: center;
+}
+
+#dog3 {
+	text-align: center;
+	display: none;
 }
 
 
