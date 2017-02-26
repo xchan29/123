@@ -1,0 +1,93 @@
+header {
+	background-image: url("assets/dog_background.jpg");
+	height: 100vh;
+	background-size: cover;
+	max-width: 100%;
+	max-height: auto;
+}
+
+.center-transition {
+	max-width: 100%;
+	padding: 20px;
+	background: #e8cccc;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#e8cccc, #fff7f7);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#e8cccc, #fff7f7);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#e8cccc, #fff7f7);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#e8cccc, #fff7f7);
+	/* Standard syntax */
+}
+
+.center-transition p {
+
+	text-align: center;
+	font-size: 30px;
+	color: #000;
+}
+
+.list-style {
+	list-style: none;
+	padding: 0;
+}
+.list-style li {
+	padding: 10px;
+}
+
+#dogContent {
+	margin: auto;
+	max-width: 93%;
+}
+header h1 {
+	color: #ddd;
+}
+
+header p {
+	color: #fff;
+	font-size: 20px;
+}
+
+.subtitle {
+	float: left;
+	font-size: 30px;
+	color: #000;
+	letter-spacing: 1.2px;
+	line-height: 88px;
+}
+
+.site-nav {
+	font-size: 18px;
+	float: right;
+	line-height: 88px;
+}
+
+.site-nav .page-link {
+	margin: 20px;
+	font-size: 18px;
+	color: #000;
+	letter-spacing: 1.2px;
+}
+
+#header {
+	text-align: center;
+	background: #1B1E25;
+	padding: 50px 0 55px 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#header h1 {
+	font-family: oswald;
+	font-size: 55px;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	line-height: 70px;
+}
+
+.site-footer p {
+	color: #000;
+	text-align: center;
+}
