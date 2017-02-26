@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<script src="taffydb-master/taffy-min.js"></script>
+		<script>
+
+		var cities = TAFFY([{name:"New York",state:"WA"},{name:"Las Vegas",state:"NV"},{name:"Boston",state:"MA"}]);
+	
+		cities.insert({name:"Portland",state:"OR"});
+		
+		
+		</script>
+	</head>
+	<body>
+	<button onclick="myFunction()">Click me</button>
+		
+	<form action="/action_page.php">
+	  First name:<br>
+	  <input type="text" name="firstname" value="Mickey">
+	  <br>
+	  Last name:<br>
+	  <input type="text" name="lastname" value="Mouse">
+	  <br><br>
+	  <input type="submit" value="Submit">
+	</form> 	
+		
+	<script>
+		function myFunction() {
+			document.write(cities().stringify());
+		}
+	</script>
+	
+	<script>
+			
+		
+	</script>
+	</body>
+				
+</html>
