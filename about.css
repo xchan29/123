@@ -1,15 +1,58 @@
+body {
+	background-image: url(assets/dog.jpg);
+	background-size: cover;
+}
 
+.site-nav {
+	font-size: 24px;
+	float: right;
+	line-height: 88px;
+}
 
+.site-nav .page-link {
+	text-decoration: none;
+	font-family: helvectica;
+	margin: 20px;
+	font-size: 18px;
+	color: #000;
+	letter-spacing: 1.2px;
+}
 
 h1 {
 	text-align: center;
 }
 
-h2{
+h2 {
+	text-decoration: underline;
+	color: #000;
+	
 
 }
 
 p {
 	font-family: helvectica;
-	font-size: 18px;
+	font-size: 20px;
+	color: #000;
+}
+.main_content p {
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+.footer_ending {
+	margin-top: 30px;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 1.2px;
+}
+
+.footer_ending span {
+	color: red;
+}
+
+.site-footer p {
+	font-size: 16px;
+	margin-bottom: 0;
+	color: #000;
+	text-align: center;
 }

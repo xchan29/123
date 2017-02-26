@@ -27,6 +27,7 @@ header {
 }
 
 .site-nav .page-link {
+	text-decoration: none;
 	font-family: helvectica;
 	margin: 20px;
 	font-size: 18px;

@@ -4,6 +4,21 @@ body {
 		
 }
 
+.site-nav {
+	font-size: 24px;
+	float: right;
+	line-height: 88px;
+}
+
+.site-nav .page-link {
+	text-decoration: none;
+	font-family: helvectica;
+	margin: 20px;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 1.2px;
+}
+
 form {
 	border: 3px solid #f1f1f1;
 	max-width: 50%;
@@ -12,7 +27,8 @@ form {
 
 h1 {
 	text-align: center;
-	font-family: cursive;	
+	font-family: cursive;
+	color: #000;
 }
 
 label {
@@ -20,7 +36,7 @@ label {
 }
 
 textarea {
-	width: 100%;
+	width: 99.2%;
 }
 
 
@@ -40,4 +56,21 @@ button {
     border: none;
     cursor: pointer;
     width: 100%;
+}
+
+
+.footer_ending {
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 1.2px;
+}
+.footer_ending span {
+	color: red;
+}
+.site-footer p {
+	margin-bottom: 0;
+	padding: 5px;
+	color: #000;
+	text-align: center;
 }
