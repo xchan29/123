@@ -87,21 +87,31 @@ ul li img:hover{
 }
 
 .footerEmpty {
-	height: 20vh;
-	background: #aaa;
+	height: 10vh;
+	background: #bbb;
 	/* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(#fff, #888);
+	background: -webkit-linear-gradient(#fff, #bbb);
 	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#fff, #72b8ff);
+	background: -o-linear-gradient(#fff, #bbb);
 	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#fff, #72b8ff);
+	background: -moz-linear-gradient(#fff, #bbb);
 	/* For Firefox 3.6 to 15 */
-	background: linear-gradient(#fff, #aaa);
+	background: linear-gradient(#fff, #bbb);
 	/* Standard syntax */
 	
 }
+.footer_ending {
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 1.2px;
+}
+.footer_ending span {
+	color: red;
+}
 .site-footer p {
-	padding: 20px;
+	margin-bottom: 0;
+	background: #bbb;
+	padding: 5px;
 	color: #000;
 	text-align: center;
 }
