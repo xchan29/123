@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
 	background-image: url("assets/dog_background.jpg");
 	height: 100vh;
@@ -5,6 +9,34 @@ header {
 	max-width: 100%;
 	max-height: auto;
 }
+
+.subtitle {
+	font-family: helvectica;
+	padding: 0px 0px 0px 20px;
+	float: left;
+	font-size: 30px;
+	color: #000;
+	letter-spacing: 1.2px;
+	line-height: 88px;
+}
+
+.site-nav {
+	font-size: 24px;
+	float: right;
+	line-height: 88px;
+}
+
+.site-nav .page-link {
+	font-family: helvectica;
+	margin: 20px;
+	font-size: 18px;
+	color: #000;
+	letter-spacing: 1.2px;
+}
+.empty {
+	height: 80vh;
+}
+
 
 .center-transition {
 	max-width: 100%;
@@ -22,7 +54,7 @@ header {
 }
 
 .center-transition p {
-
+	font-family: helvetica;
 	text-align: center;
 	font-size: 30px;
 	color: #000;
@@ -40,52 +72,9 @@ header {
 	margin: auto;
 	max-width: 93%;
 }
-header h1 {
-	color: #ddd;
-}
 
-header p {
-	color: #fff;
-	font-size: 20px;
-}
 
-.subtitle {
-	float: left;
-	font-size: 30px;
-	color: #000;
-	letter-spacing: 1.2px;
-	line-height: 88px;
-}
 
-.site-nav {
-	font-size: 18px;
-	float: right;
-	line-height: 88px;
-}
-
-.site-nav .page-link {
-	margin: 20px;
-	font-size: 18px;
-	color: #000;
-	letter-spacing: 1.2px;
-}
-
-#header {
-	text-align: center;
-	background: #1B1E25;
-	padding: 50px 0 55px 0;
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
-}
-
-#header h1 {
-	font-family: oswald;
-	font-size: 55px;
-	color: #FFFFFF;
-	letter-spacing: 2px;
-	line-height: 70px;
-}
 
 .site-footer p {
 	color: #000;
