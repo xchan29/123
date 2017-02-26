@@ -1,4 +1,4 @@
-# DoggoDoggo
+# Doggo
 
 A dating website, not for you, but for your dog!
 <br>
